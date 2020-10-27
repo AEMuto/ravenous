@@ -15,9 +15,9 @@ class SearchBar extends React.Component {
       this.handleTermChange = this.handleTermChange.bind(this);
       this.handleSearch = this.handleSearch.bind(this);
       this.sortByOptions = {
-        'Best Match': 'sort_by=best_match',
-        'Highest Rated': 'sort_by=rating',
-        'Most Reviewed': 'sort_by=review_count'
+        'Best Match': 'best_match',
+        'Highest Rated': 'rating',
+        'Most Reviewed': 'review_count'
       };
     }
 
